@@ -685,6 +685,9 @@ export default {
     gotoGayhub() {
       window.open(gayhubRelease);
     },
+    goToTg() {
+      window.open(tgBotLink);
+    },
     gotoRemoteConfig() {
       window.open(remoteConfigSample);
     },
