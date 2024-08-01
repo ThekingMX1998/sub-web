@@ -267,21 +267,23 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "sub.xeton.dev (sub 作者提供)": "https://sub.xeton.dev/sub?",
-          "api.tsutsu.cc (负载均衡 + 国内优化)": "http://api.tsutsu.cc/sub?",
-          "api.v1.mk (肥羊增强型)": "https://api.v1.mk/sub?",
-          "www.nameless13.com (nameless13 提供)": "https://www.nameless13.com/sub?",
-          "api.dler.io (sub 作者 & lhie1 提供)": "https://api.dler.io/sub?",
-          "api.wcc.best (sub-web 作者提供)": "https://api.wcc.best/sub?",
+          "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
+          "肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
+          "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one",
+          nameless13提供: "https://www.nameless13.com",
+          subconverter作者提供: "https://sub.xeton.dev",
+          "sub-web作者提供": "https://api.wcc.best",
+          "sub作者&lhie1提供": "https://api.dler.io",
         },
         backendOptions: [
-          { value: "http://localhost:25500/sub?" },
-          { value: "https://sub.xeton.dev/sub?" },
-          { value: "http://api.tsutsu.cc/sub?" },
-          { value: "https://api.v1.mk/sub?" },
-          { value: "https://www.nameless13.com/sub?" },
-          { value: "https://api.dler.io/sub?" },
-          { value: "https://api.wcc.best/sub?" }
+          { value: "http://localhost:25500" },
+          {value: "https://url.v1.mk"},
+          {value: "https://sub.d1.mk"},
+          {value: "https://api.tsutsu.one"},
+          {value: "https://www.nameless13.com"},
+          {value: "https://sub.xeton.dev"},
+          {value: "https://api.wcc.best"},
+          {value: "https://api.dler.io"},
         ],
         remoteConfig: [
           {
@@ -678,10 +680,10 @@ export default {
           }
         ]
       },
-      form: {
+        form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "http://localhost:25500/sub?",
+        customBackend: "https://sub.xeton.dev/sub?",
         remoteConfig: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/lhie1_dler.ini",
         excludeRemarks: "",
         includeRemarks: "",
