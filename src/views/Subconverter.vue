@@ -732,7 +732,7 @@ export default {
     };
   },
   created() {
-    document.title = "GreenFish SubConverter";
+    document.title = "SubConverter";
     this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
