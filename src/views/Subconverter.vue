@@ -266,7 +266,7 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "localhost:25500 本地版": "http://localhost:25500/sub?",
+          "localhost:25500 本地版": "http://localhost:25500",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one",
@@ -683,7 +683,7 @@ export default {
         form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://sub.xeton.dev/sub?",
+        customBackend: "https://sub.xeton.dev",
         remoteConfig: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/lhie1_dler.ini",
         excludeRemarks: "",
         includeRemarks: "",
