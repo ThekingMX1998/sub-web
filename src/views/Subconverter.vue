@@ -276,14 +276,14 @@ export default {
           "sub作者&lhie1提供": "https://api.dler.io",
         },
         backendOptions: [
-          { value: "http://localhost:25500" },
-          {value: "https://url.v1.mk"},
-          {value: "https://sub.d1.mk"},
-          {value: "https://api.tsutsu.one"},
-          {value: "https://www.nameless13.com"},
-          {value: "https://sub.xeton.dev"},
-          {value: "https://api.wcc.best"},
-          {value: "https://api.dler.io"},
+          {value: "http://localhost:25500/sub?"},
+          {value: "https://url.v1.mk/sub?"},
+          {value: "https://sub.d1.mk/sub?"},
+          {value: "https://api.tsutsu.one/sub?"},
+          {value: "https://www.nameless13.com/sub?"},
+          {value: "https://sub.xeton.dev/sub?"},
+          {value: "https://api.wcc.best/sub?"},
+          {value: "https://api.dler.io/sub?"},
         ],
         remoteConfig: [
           {
@@ -683,7 +683,7 @@ export default {
         form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://sub.xeton.dev",
+        customBackend: "https://sub.xeton.dev/sub?",
         remoteConfig: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/lhie1_dler.ini",
         excludeRemarks: "",
         includeRemarks: "",
@@ -700,7 +700,7 @@ export default {
         tfo: false,
         sort: false,
         expand: true,
-        scv: false,
+        scv: true,
         fdn: false,
         appendType: false,
         insert: false, // 是否插入默认订阅的节点，对应配置项 insert_url
